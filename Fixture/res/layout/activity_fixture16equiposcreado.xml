@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblNomeq1dff32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/lblOctavos"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/lblNombreeq1f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq3f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq5f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq7f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq9f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq11f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq13f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq15f16of"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo"
+                    android:width="93dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/txtPunteq1f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:width="35dp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/txtPunteq3f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:width="35dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq5f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq7f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq9f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq11f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq13f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq15f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/txtPunteq2f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:width="35dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq4f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq6f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq8f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq10f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq12f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq14f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <EditText
+                    android:id="@+id/txtPunteq16f16of"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/lblNombreeq2f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq4f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq6f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq8f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq10f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq12f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq14f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq16f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="TextView"
+                    android:textSize="@dimen/Nombrequipo" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCuartosf16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="cuartosfixture16equipos"
+            android:text="@string/btnSiguiente" />
+
+    </LinearLayout>
+
+</ScrollView>

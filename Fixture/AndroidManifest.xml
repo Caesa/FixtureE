@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="creador.fixture"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="creador.fixture.Inicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture2equipos"
+            android:label="@string/app_name" >                        
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture4equipos"
+            android:label="@string/app_name" >                        
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture8equipos"
+            android:label="@string/app_name" >                        
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture16equipos"
+            android:label="@string/app_name" >                        
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture32equipos"
+            android:label="@string/app_name" >                        
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture2equiposcreado"
+            android:label="@string/app_name" >                        
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture2equiposfinalizado"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture4equiposcreado"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name="creador.fixture.Fixture4equiposfinal"
+            android:label="@string/app_name">            
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture4equiposfinalizado"
+            android:label="@string/app_name">            
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture8equiposcreado"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name="creador.fixture.Fixture8equipossemifinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture8equiposfinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name="creador.fixture.Fixture8equiposfinalizado"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture16equiposcreado"
+            android:label="@string/app_name">
+        </activity>
+        <activity 
+            android:name="creador.fixture.Fixture16equiposcuartosdefinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture16equipossemifinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture16equiposfinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture16equiposfinalizado"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture32equiposcreado"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture32equiposoctavosdefinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture32equiposcuartosdefinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture32equipossemifinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture32equiposfinal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="creador.fixture.Fixture32equiposfinalizado"
+            android:label="@string/app_name">
+        </activity>"
+    </application>
+
+</manifest>

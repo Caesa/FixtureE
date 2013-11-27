@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/lblNomeq1dff32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq1"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq1f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq2"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq3f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq3"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq5f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq4"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq7f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq5"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq9f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq6"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq11f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq7"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq13f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lblNombreeq8"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq15f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/lblNombreeq9"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq2f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/lblNombreeq10"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq4f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:text="@string/lblNombreeq11"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq6f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:text="@string/lblNombreeq12"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq8f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:text="@string/lblNombreeq13"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq10f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/lblNombreeq14"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq12f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/lblNombreeq15"
+                    android:textSize="@dimen/Nombrequipo" />
+
+                <TextView
+                    android:id="@+id/lblNombreeq14f16of"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/lblNombreeq16"
+                    android:textSize="@dimen/Nombrequipo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/txtNombreeq1f16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq2f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq3f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq4f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq5f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq6f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq7f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq8f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq9f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq10f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq11f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq12f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq13f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq14f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq15f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtNombreeq16f16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCrearfix16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="crearfix16eq"
+            android:text="@string/btnCrear" />
+
+    </LinearLayout>
+
+</ScrollView>

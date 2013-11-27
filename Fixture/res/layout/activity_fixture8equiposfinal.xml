@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblNombreeq1f8f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNombreeq1f16"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq2f8f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq1f8f"
+        android:layout_alignBottom="@+id/lblNombreeq1f8f"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq1f8f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblNombreeq1f8f"
+        android:layout_toRightOf="@+id/lblNombreeq1f8f"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq2f8f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblNombreeq2f8f"
+        android:layout_toLeftOf="@+id/lblNombreeq2f8f"
+        android:ems="10"
+        android:width="35dp" />
+
+    <Button
+        android:id="@+id/btnFinalizarf8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="finalizarfixture8equipos"
+        android:text="@string/btnSiguiente" />
+
+    <TextView
+        android:id="@+id/txtNombreeq1f16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:text="@string/lblFinal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

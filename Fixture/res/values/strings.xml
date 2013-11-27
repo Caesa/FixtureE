@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fixture</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="Titulo">Fixture Creator</string>
+    <string name="lblNombreeq1">Equipo 1:</string>
+    <string name="lblNombreeq2">Equipo 2:</string>
+    <string name="btnCrear">Crear fixture</string>
+    <string name="lblFinal">Final</string>
+    <string name="Ganador">Campeón:</string>
+    <string name="lblNombreeq3">Equipo 3:</string>
+    <string name="lblNombreeq4">Equipo 4:</string>
+    <string name="lblSemi">Semifinal</string>
+    <string name="lblNombreeq5">Equipo 5:</string>
+    <string name="lblNombreeq6">Equipo 6:</string>
+    <string name="lblNombreeq7">Equipo 7:</string>
+    <string name="lblNombreeq8">Equipo 8:</string>
+    <string name="lblCuartos">Cuartos de final</string>
+    <string name="lblNombreeq9">Equipo 9:</string>
+    <string name="lblNombreeq10">Equipo 10:</string>
+    <string name="lblNombreeq11">Equipo 11:</string>
+    <string name="lblNombreeq12">Equipo 12:</string>
+    <string name="lblNombreeq13">Equipo 13:</string>
+    <string name="lblNombreeq14">Equipo 14:</string>
+    <string name="lblNombreeq15">Equipo 15:</string>
+    <string name="lblNombreeq16">Equipo 16:</string>
+    <string name="lblNombreeq17">Equipo 17:</string>
+    <string name="lblNombreeq18">Equipo 18:</string>
+    <string name="lblNombreeq19">Equipo 19:</string>
+    <string name="lblNombreeq20">Equipo 20:</string>
+    <string name="lblNombreeq21">Equipo 21:</string>
+    <string name="lblNombreeq22">Equipo 22:</string>
+    <string name="lblNombreeq23">Equipo 23:</string>
+    <string name="lblNombreeq24">Equipo 24:</string>
+    <string name="lblNombreeq25">Equipo 25:</string>
+    <string name="lblNombreeq26">Equipo 26:</string>
+    <string name="lblNombreeq27">Equipo 27:</string>
+    <string name="lblNombreeq28">Equipo 28:</string>
+    <string name="lblNombreeq29">Equipo 29:</string>
+    <string name="lblNombreeq30">Equipo 30:</string>
+    <string name="lblNombreeq31">Equipo 31:</string>
+    <string name="lblNombreeq32">Equipo 32:</string>
+    <string name="lblOctavos">Octavos de final</string>
+    <string name="lblDieciseisavos">Dieciseisavos de final</string>
+    <string name="btnVolvermprinc">Volver al menu principal</string>
+
+</resources>

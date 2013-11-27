@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblNombreeq1f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq2f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq1f32sf"
+        android:layout_alignBottom="@+id/lblNombreeq1f32sf"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq3f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblNombreeq1f32sf"
+        android:layout_marginTop="49dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq4f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq3f32sf"
+        android:layout_alignBottom="@+id/lblNombreeq3f32sf"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq1f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq1f32sf"
+        android:layout_alignBottom="@+id/lblNombreeq1f32sf"
+        android:layout_toRightOf="@+id/lblNombreeq1f32sf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq2f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq2f32sf"
+        android:layout_alignBottom="@+id/lblNombreeq2f32sf"
+        android:layout_toLeftOf="@+id/lblNombreeq2f32sf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq3f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq3f32sf"
+        android:layout_alignBottom="@+id/lblNombreeq3f32sf"
+        android:layout_alignLeft="@+id/txtPunteq1f32sf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq4f32sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq4f32sf"
+        android:layout_alignBottom="@+id/lblNombreeq4f32sf"
+        android:layout_alignLeft="@+id/txtPunteq2f32sf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <Button
+        android:id="@+id/btnFinalf32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="finalfixture32equipos"
+        android:text="@string/btnSiguiente" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="@string/lblSemi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

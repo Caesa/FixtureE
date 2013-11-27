@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblNombreeq4f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq3f8sf"
+        android:layout_alignBottom="@+id/lblNombreeq3f8sf"
+        android:layout_toRightOf="@+id/txtNombreeq1f16"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq2f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq1f8sf"
+        android:layout_alignBottom="@+id/lblNombreeq1f8sf"
+        android:layout_alignLeft="@+id/lblNombreeq4f8sf"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <Button
+        android:id="@+id/btnFinalf8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="finalfixture8equipos"
+        android:text="@string/btnSiguiente" />
+
+    <TextView
+        android:id="@+id/lblNombreeq1f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblNombreeq3f8sf"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="189dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/txtNombreeq1f16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblNombreeq2f8sf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="@string/lblSemi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblNombreeq3f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNombreeq1f8sf"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@+id/txtNombreeq1f16"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq3f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq3f8sf"
+        android:layout_alignBottom="@+id/lblNombreeq3f8sf"
+        android:layout_alignLeft="@+id/txtPunteq1f8sf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq1f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNombreeq1f16"
+        android:layout_alignTop="@+id/lblNombreeq1f8sf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq2f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq2f8sf"
+        android:layout_alignBottom="@+id/lblNombreeq2f8sf"
+        android:layout_toLeftOf="@+id/lblNombreeq2f8sf"
+        android:ems="10"
+        android:width="35dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPunteq4f8sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq4f8sf"
+        android:layout_alignBottom="@+id/lblNombreeq4f8sf"
+        android:layout_toLeftOf="@+id/lblNombreeq4f8sf"
+        android:ems="10"
+        android:width="35dp" />
+
+</RelativeLayout>

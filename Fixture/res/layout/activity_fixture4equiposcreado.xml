@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp" >
+
+    <TextView
+        android:id="@+id/lblNombreeq24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblNombreeq14"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq24"
+        android:layout_alignBottom="@+id/lblNombreeq24"
+        android:layout_alignRight="@+id/lblCampeonf4"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq24"
+        android:layout_alignBottom="@+id/txtPunteq24"
+        android:layout_alignLeft="@+id/lblCampeonf4"
+        android:ems="10"
+        android:width="35dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblNombreeq34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPunteq14"
+        android:layout_marginTop="65dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq34"
+        android:layout_alignBottom="@+id/lblNombreeq34"
+        android:layout_alignLeft="@+id/txtPunteq14"
+        android:ems="10"
+        android:width="35dp" />
+
+    <TextView
+        android:id="@+id/lblNombreeq44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq34"
+        android:layout_alignBottom="@+id/txtPunteq34"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq44"
+        android:layout_alignBottom="@+id/lblNombreeq44"
+        android:layout_alignLeft="@+id/txtPunteq24"
+        android:ems="10"
+        android:width="35dp" />
+
+    <TextView
+        android:id="@+id/lblCampeonf4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="@string/lblSemi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lblNombreeq14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblCampeonf4"
+        android:layout_marginTop="39dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <Button
+        android:id="@+id/btnFinalfix4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="siguientefasefixture4equipos"
+        android:text="@string/btnSiguiente" />
+
+</RelativeLayout>

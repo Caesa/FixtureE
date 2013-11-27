@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblNombreeq1f16f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblNomeq1dff32"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq2f16f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblNombreeq1f16f"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <Button
+        android:id="@+id/btnFinalizarf16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="finalizarfixture16equipos"
+        android:text="@string/btnSiguiente" />
+
+    <EditText
+        android:id="@+id/txtPunteq1f16f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq1f16f"
+        android:layout_alignBottom="@+id/lblNombreeq1f16f"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/lblNombreeq1f16f"
+        android:ems="10"
+        android:width="35dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPunteq2f16f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq2f16f"
+        android:layout_alignBottom="@+id/lblNombreeq2f16f"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/lblNombreeq2f16f"
+        android:ems="10"
+        android:width="35dp" />
+
+    <TextView
+        android:id="@+id/lblNomeq1dff32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:text="@string/lblFinal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

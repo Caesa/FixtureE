@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblNombreeq1f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNombreeq1f16"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq3f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPunteq1f8"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/txtPunteq1f8"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq3f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq3f8cf"
+        android:layout_alignBottom="@+id/lblNombreeq3f8cf"
+        android:layout_toRightOf="@+id/lblNombreeq3f8cf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq1f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq1f8cf"
+        android:layout_alignBottom="@+id/lblNombreeq1f8cf"
+        android:layout_toRightOf="@+id/lblNombreeq1f8cf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq2f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq2f8cf"
+        android:layout_alignBottom="@+id/lblNombreeq2f8cf"
+        android:layout_toLeftOf="@+id/lblNombreeq4f8cf"
+        android:ems="10"
+        android:width="35dp" />
+
+    <TextView
+        android:id="@+id/lblNombreeq2f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq1f8"
+        android:layout_alignBottom="@+id/txtPunteq1f8"
+        android:layout_alignLeft="@+id/lblNombreeq4f8cf"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq4f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq3f8"
+        android:layout_alignBottom="@+id/txtPunteq3f8"
+        android:layout_alignLeft="@+id/txtPunteq2f8"
+        android:ems="10"
+        android:width="35dp" />
+
+    <TextView
+        android:id="@+id/lblNombreeq4f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq4f8"
+        android:layout_alignBottom="@+id/txtPunteq4f8"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq5f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPunteq3f8"
+        android:layout_marginTop="31dp"
+        android:layout_toLeftOf="@+id/txtPunteq3f8"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq5f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq5f8cf"
+        android:layout_alignBottom="@+id/lblNombreeq5f8cf"
+        android:layout_alignLeft="@+id/txtPunteq3f8"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq6f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq5f8"
+        android:layout_alignBottom="@+id/txtPunteq5f8"
+        android:layout_alignLeft="@+id/txtPunteq4f8"
+        android:ems="10"
+        android:width="35dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblNombreeq6f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq6f8"
+        android:layout_alignBottom="@+id/txtPunteq6f8"
+        android:layout_alignLeft="@+id/lblNombreeq4f8cf"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/lblNombreeq7f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPunteq5f8"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/txtPunteq5f8"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <EditText
+        android:id="@+id/txtPunteq7f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblNombreeq7f8cf"
+        android:layout_alignBottom="@+id/lblNombreeq7f8cf"
+        android:layout_alignLeft="@+id/txtPunteq5f8"
+        android:ems="10"
+        android:width="35dp" />
+
+    <EditText
+        android:id="@+id/txtPunteq8f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq7f8"
+        android:layout_alignBottom="@+id/txtPunteq7f8"
+        android:layout_alignLeft="@+id/txtPunteq6f8"
+        android:ems="10"
+        android:width="35dp" />
+
+    <TextView
+        android:id="@+id/lblNombreeq8f8cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtPunteq8f8"
+        android:layout_alignBottom="@+id/txtPunteq8f8"
+        android:layout_alignLeft="@+id/lblNombreeq6f8cf"
+        android:text="TextView"
+        android:textSize="@dimen/Nombrequipo" />
+
+    <TextView
+        android:id="@+id/txtNombreeq1f16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/lblCuartos"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnSemifinalf8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="semifinalfixture8equipos"
+        android:text="@string/btnSiguiente" />
+
+</RelativeLayout>
